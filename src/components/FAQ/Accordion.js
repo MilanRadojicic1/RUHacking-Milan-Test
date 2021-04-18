@@ -16,7 +16,7 @@ const FooterSubHeading = styled.p`
   align-items: center;
   text-align: center;
   display: flex;
-  font-style: italic;
+  font-family: 'clone-rounded-latin',sans-serif;
 `;
 
 

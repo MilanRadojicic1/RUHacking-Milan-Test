@@ -33,7 +33,6 @@ const Sponsors = ({ lightBg, imgStart, alt, start }) => {
                 <SponsorLinkTitle
                   style={{
                     color: '#000000',
-
                   }}
                 >
                   SPONSORS
