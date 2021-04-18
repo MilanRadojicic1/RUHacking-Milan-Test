@@ -60,7 +60,7 @@ const Navbar = () => {
             <NavMenu onClick={handleClcick} click={click}>
               <NavItem>
                 <NavLinks
-                  style={{ color: '#ffff', fontFamily: 'Clone Rounded Latin' }}
+                  style={{ color: '#ffff',  fontfamily: " clone-rounded-latin, sans-serif"}}
                   to='Homepage'
                 >
                   HOME
@@ -69,7 +69,7 @@ const Navbar = () => {
 
               <NavItem>
                 <NavLinks
-                  style={{ color: '#ffff', fontFamily: 'Clone Rounded Latin' }}
+                  style={{ color: '#ffff',  fontfamily: " clone-rounded-latin, sans-serif"}}
                   to='inf3'
                 >
                   ABOUT
@@ -78,7 +78,7 @@ const Navbar = () => {
 
               <NavItem>
                 <NavLinks
-                  style={{ color: '#ffff', fontFamily: 'Clone Rounded Latin' }}
+                  style={{ color: '#ffff',  fontfamily: " clone-rounded-latin, sans-serif" }}
                   to="faq"
                 >
                   FAQ
@@ -87,7 +87,7 @@ const Navbar = () => {
 
               <NavItem>
                 <NavLinks
-                  style={{ color: '#ffff', fontFamily: 'Clone Rounded Latin' }}
+                  style={{ color: '#ffff',  fontfamily: " clone-rounded-latin, sans-serif" }}
                   to="inf2"
                 >
                   SPONSORS
@@ -97,7 +97,7 @@ const Navbar = () => {
 
               <NavItem>
                 <NavLinks
-                  style={{ color: '#ffff', fontFamily: 'Clone Rounded Latin' }}
+                  style={{ color: '#ffff', fontfamily: " clone-rounded-latin, sans-serif" }}
                   to='inf1'
                 >
                   EXTRA INFO
@@ -106,7 +106,7 @@ const Navbar = () => {
 
               <NavItem>
                 <NavLinks
-                  style={{ color: '#ffff', fontFamily: 'Clone Rounded Latin' }}
+                  style={{ color: '#ffff',  fontfamily: " clone-rounded-latin, sans-serif" }}
                   to='team'
                 >
                   TEAM
@@ -123,7 +123,7 @@ const Navbar = () => {
                     <Button
                       style={{
                         color: '#ffff',
-                        fontFamily: 'Clone Rounded Latin',
+                        fontFamily: " clone-rounded-latin, sans-serif",
                       }}
                     >
                       {' '}

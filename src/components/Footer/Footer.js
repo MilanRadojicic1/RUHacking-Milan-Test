@@ -53,16 +53,10 @@ const Footer = () => {
                 Sponsorship
             </a>
               </FooterLink>
-              <FooterLink style={{ color: '#ffff' }} >
-              <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
-              target="_blank"
-            style={{ color: '#FFF' }}
 
-            
-            >
-              MLH Code of Conduct
-              </a>
-              </FooterLink>
+
+
+
             </FooterLinksItems>
             <FooterLinksItems>
               <FooterLinkTitle>Contact Us </FooterLinkTitle>

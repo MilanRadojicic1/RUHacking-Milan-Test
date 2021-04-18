@@ -30,7 +30,7 @@ const Dropdown = styled.div`
   display: flex;
   flex-direction: column;
   font-size: 20px;
-  font-style: italic;
+  font-family: 'clone-rounded-latin',sans-serif;
 
   border-radius: 25px;
 `;
@@ -56,7 +56,7 @@ const Wrap = styled.div`
   border-bottom: 20px solid #ffff;
   border-top: 20px solid #ffff;
   border-radius: 25px;
-  font-style: italic;
+  font-family: 'clone-rounded-latin',sans-serif;
 
   cursor: pointer;
 

@@ -44,7 +44,7 @@ const Team = () => {
     <Container >
     <Container id="team">
 
-      <SmallTopLine style={{ fontFamily: 'Clone Rounded Latin' }}>
+      <SmallTopLine style={{ fontFamily: 'clone-rounded-latin,sans-serif'}}>
         Meet The Team  </SmallTopLine >
         </Container>
 
@@ -54,10 +54,10 @@ const Team = () => {
             <Card style={{ textAlign: 'center' }}>
               <Image src={Dan} fluid style={{ width: 'auto', height: 'auto' }} />
               <Card.Body style={{ width: 'auto',height: 'auto'}}>
-                <Card.Title style={{ fontFamily: 'Clone Rounded Latin'  }}>
+                <Card.Title style={{ fontFamily:'clone-rounded-latin,sans-serif'  }}>
                   Daniel Broomhead
                 </Card.Title>
-                <Card.Text style={{ fontFamily: 'Clone Rounded Latin' }}>
+                <Card.Text style={{ fontFamily: 'clone-rounded-latin,sans-serif' }}>
                   President
                 </Card.Text>
 
@@ -96,10 +96,10 @@ const Team = () => {
                 style={{width: 'auto', height: 'auto' }}
               />
               <Card.Body>
-                <Card.Title style={{ fontFamily: 'Clone Rounded Latin' }}>
-                  Nataliya Lazutkina
+                <Card.Title style={{ fontFamily: 'clone-rounded-latin,sans-serif'}}>
+                Nataliya Lazutkina
                 </Card.Title>
-                <Card.Text style={{ fontFamily: 'Clone Rounded Latin' }}>
+                <Card.Text style={{ fontFamily: 'clone-rounded-latin,sans-serif' }}>
                   Vice-President
                 </Card.Text>
 
@@ -139,10 +139,10 @@ const Team = () => {
                 style={{width: 'auto', height: 'auto' }}
               />
               <Card.Body>
-                <Card.Title style={{ fontFamily: 'Clone Rounded Latin' }}>
+                <Card.Title style={{ fontFamily: 'clone-rounded-latin,sans-serif' }}>
                   Amadeusz Wlodarczyk
                 </Card.Title>
-                <Card.Text style={{ fontFamily: 'Clone Rounded Latin' }}>
+                <Card.Text style={{ fontFamily: 'clone-rounded-latin,sans-serif' }}>
                   Secretary
                 </Card.Text>
 
@@ -175,10 +175,10 @@ const Team = () => {
             <Card style={{ textAlign: 'center' }}>
               <Image src={Emily} fluid style={{ width: 'auto', height: 'auto' }} />
               <Card.Body>
-                <Card.Title  style={{ fontFamily: 'Clone Rounded Latin' }}>
+                <Card.Title  style={{ fontFamily: 'clone-rounded-latin,sans-serif' }}>
                   Emily Man
                 </Card.Title>
-                <Card.Text style={{ fontFamily: 'Clone Rounded Latin' }}>
+                <Card.Text style={{ fontFamily: 'clone-rounded-latin,sans-serif' }}>
                   Social Secretary
                   </Card.Text>
 
@@ -216,10 +216,10 @@ const Team = () => {
             <Card style={{ textAlign: 'center' }}>
               <Image src={Joe} fluid style={{ width: 'auto', height: 'auto'}} />
               <Card.Body>
-                <Card.Title style={{ fontFamily: 'Clone Rounded Latin' }}>
+                <Card.Title style={{ fontFamily: 'clone-rounded-latin,sans-serif' }}>
                   Joe McKeown
                 </Card.Title>
-                <Card.Text style={{ fontFamily: 'Clone Rounded Latin' }}>
+                <Card.Text style={{ fontFamily: 'clone-rounded-latin,sans-serif' }}>
                   Treasurer
                 </Card.Text>
 
@@ -246,10 +246,10 @@ const Team = () => {
             <Card style={{ textAlign: 'center' }}>
               <Image src={Savva} fluid style={{ width: 'auto', height: 'auto' }} />
               <Card.Body>
-                <Card.Title style={{ fontFamily: 'Clone Rounded Latin' }}>
+                <Card.Title style={{ fontFamily: 'clone-rounded-latin,sans-serif' }}>
                   Savva Podkopov
                 </Card.Title>
-                <Card.Text style={{ fontFamily: 'Clone Rounded Latin' }}>
+                <Card.Text style={{ fontFamily: 'clone-rounded-latin,sans-serif' }}>
                   Welfare Officer
                 </Card.Text>
 
@@ -281,10 +281,10 @@ const Team = () => {
             <Card style={{ textAlign: 'center' }}>
               <Image src={Neyma} fluid style={{width: 'auto', height: 'auto'}} />
               <Card.Body>
-                <Card.Title style={{ fontFamily: 'Clone Rounded Latin' }}>
+                <Card.Title style={{ fontFamily:'clone-rounded-latin,sans-serif' }}>
                   Neyma Siddiqui
                 </Card.Title>
-                <Card.Text style={{ fontFamily: 'Clone Rounded Latin' }}>
+                <Card.Text style={{ fontFamily: 'clone-rounded-latin,sans-serif'}}>
                   Google Dev Rep
                 </Card.Text>
 
@@ -325,10 +325,10 @@ const Team = () => {
                 style={{ width: 'auto', height: 'auto' }}
               />
               <Card.Body>
-                <Card.Title style={{ fontFamily: 'Clone Rounded Latin' }}>
+                <Card.Title style={{ fontFamily: 'clone-rounded-latin,sans-serif' }}>
                   Dimitar Spasov{' '}
                 </Card.Title>
-                <Card.Text style={{ fontFamily: 'Clone Rounded Latin' }}>
+                <Card.Text style={{ fontFamily: 'clone-rounded-latin,sans-serif' }}>
                   Designer
                 </Card.Text>
 
@@ -366,10 +366,10 @@ const Team = () => {
             <Card style={{ textAlign: 'center' }}>
               <Image src={Anna} fluid style={{width: 'auto', height: 'auto'}} />
               <Card.Body>
-                <Card.Title style={{ fontFamily: 'Clone Rounded Latin' }}>
+                <Card.Title style={{ fontFamily: 'clone-rounded-latin,sans-serif' }}>
                   Anna Harding{' '}
                 </Card.Title>
-                <Card.Text style={{ fontFamily: 'Clone Rounded Latin' }}>
+                <Card.Text style={{ fontFamily: 'clone-rounded-latin,sans-serif' }}>
                   Designer
                 </Card.Text>
 

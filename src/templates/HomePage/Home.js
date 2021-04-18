@@ -8,6 +8,7 @@ import InfoSection3 from '../../components/InfoSection3/InfoSection3';
 import { InfoSection } from '../../components';
 import Sponsors from '../../components/Sponsors/Sponsors';
 import HomePage from '../../components/HomePage/HomePage';
+import Team1 from '../../components/Team1/Team1';
 
 import {
   HomeObjectOne,
@@ -28,6 +29,7 @@ const Home = () => {
       </FooterSubHeading>
       <InfoSection {...HomeObjectOne} />
       <Team />
+      <Team1 />
 
     </>
   );

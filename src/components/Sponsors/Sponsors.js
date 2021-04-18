@@ -42,6 +42,7 @@ const Sponsors = ({ lightBg, imgStart, alt, start }) => {
                 <SponsorLinkTitle
                   style={{
                     color: '#FFD700',
+
                   }}
                 >
                   
@@ -61,6 +62,14 @@ const Sponsors = ({ lightBg, imgStart, alt, start }) => {
                         <Image src={Bayer} fluid alt={alt} />
                       </ImgWrapper>
                     </a>
+
+                    <GapForSponsors></GapForSponsors>
+                    <ImgWrapper start={start}>
+                      <a href="https://www.zebra.com/us/en.html/" target="_blank">
+                        <Image src={Zebra} fluid alt={alt} />
+                      </a>
+                    </ImgWrapper>
+
                   </InfoRow>
                   </SponsorLinkTitle>
 
@@ -69,7 +78,6 @@ const Sponsors = ({ lightBg, imgStart, alt, start }) => {
                 <SponsorLinkTitle
                   style={{
                     color: '#C0C0C0',
-                    fontFamily: 'Clone Rounded Latin',
                   }}
                 >
                   Silver
@@ -82,19 +90,11 @@ const Sponsors = ({ lightBg, imgStart, alt, start }) => {
                 <SponsorLinkTitle
                   style={{
                     color: '#CD7F32',
-                    fontFamily: 'Clone Rounded Latin',
                   }}
                 >
                   Bronze
                   <InfoRow imgStart={imgStart}>
 
-                    <ImgWrapper start={start}>
-                      <a href="https://www.zebra.com/us/en.html/" target="_blank">
-                        <Image src={Zebra} fluid alt={alt} />
-                      </a>
-                    </ImgWrapper>
-
-                    <GapForSponsors></GapForSponsors>
 
                     <ImgWrapper start={start}>
                       <a href="https://www.20i.com/" target="_blank">
@@ -109,7 +109,6 @@ const Sponsors = ({ lightBg, imgStart, alt, start }) => {
                 <SponsorLinkTitle
                   style={{
                     color: '#000000',
-                    fontFamily: 'Clone Rounded Latin',
                   }}
                 >
                   Partners
