@@ -1,0 +1,170 @@
+
+$border: black;
+@import "~bulma/sass/utilities/initial-variables";
+@import "~bulma/sass/utilities/mixins";
+
+// Config vars
+$ruh-grey: #454545;
+$ruh-red-invert: #fff;
+$ruh-dark: #363636;
+
+$primary: $ruh-grey;
+$primary-invert: $ruh-red-invert;
+$primary-dark: $ruh-dark;
+$footer-background-color: $ruh-red-invert;
+$footer-padding: 1rem 1rem 1rem;
+
+// $card-shadow: 0 2px 3px rgba($ruh-dark, 1.0), 0 0 0 2px rgba($ruh-dark, 1.0);
+
+$slick-font-path: "~slick-carousel/slick/fonts/";
+$slick-loader-path: "~slick-carousel/slick/";
+@import "~slick-carousel/slick/slick.scss";
+@import "~slick-carousel/slick/slick-theme.scss";
+
+$fa-font-path : '~@fortawesome/fontawesome-free/webfonts';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+
+.aws-btn {
+
+  --button-default-height: 62px;
+  --button-default-font-size: 22px;
+  --button-default-border-radius: 0px;
+  --button-horizontal-padding: 45px;
+  --button-raise-level: 7px;
+  --button-hover-pressure: 2;
+  --transform-speed: .185s;
+  --button-primary-color: #363636;
+  --button-primary-color-dark: #120e0e;
+  --button-primary-color-light: $ruh-red-invert;
+  --button-primary-color-hover: #424e6a;
+  --button-primary-border: none;
+  --button-secondary-color: #fffc6c;
+  --button-secondary-color-dark: #b9b500;
+  --button-secondary-color-light: #6c6a00;
+  --button-secondary-color-hover: #fffb3e;
+  --button-secondary-border: none;
+  --button-anchor-color: #f3c8ad;
+  --button-anchor-color-dark: #734922;
+  --button-anchor-color-light: #4c3016;
+  --button-anchor-color-hover: #f1bfa0;
+  --button-anchor-border: 1px solid #8c633c;
+
+}
+
+.content .taglist {
+  list-style: none;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 1.5rem;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  li {
+    padding: 0 2rem 1rem 0;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+  }
+}
+
+* {
+  font-family: clone-rounded-latin, sans-serif;
+}
+
+header {
+  .title {
+    text-align: center;
+  }
+  .subtitle {
+    line-height: 1.2;
+  }
+}
+
+.footer {
+  .icon {
+    margin: .5em;
+  }
+}
+
+.card {
+  margin: 0 auto;
+}
+
+@mixin tier($color) {
+  transition: box-shadow .1s;
+    position: relative;
+    &::before {
+      position: absolute;
+      font-family: 'Font Awesome 5 Free';
+      content: '\f0c1';
+      font-size: 1rem;
+      color: $ruh-dark;
+      padding: 0 .5em 0 .5em;
+      border-radius: 0 0 0 5px;
+      background: $color;
+      top: 0;
+      right: 0;
+      z-index: 2;
+      opacity: 0.0;
+      transition: opacity .25s ease-in-out;
+    }
+    box-shadow: 0 2px 3px rgba($color, 1.0), 0 0 0 2px rgba($color, 1.0);
+    &:hover {
+      box-shadow: 4px 3px 4px rgba($color, 1.0), 0 0 0 4px rgba($color, 1.0);
+      &::before {
+        opacity: 1.0;
+      }
+    }
+}
+
+.tile {
+  .image {
+    transform: translateY(-50%);
+    top: 50%;
+  }
+  .gold {
+    @include tier(gold);
+  }
+  .silver {
+    @include tier(silver);
+  }
+  .bronze {
+    @include tier(rgba(205, 127, 50, 1.0));
+  }
+  @include mobile() {
+    .image {
+      transform: initial;
+    }
+  }
+}
+
+.has-border {
+  border: 1px solid white;
+  border-width: 0 1px 0 0;
+  @include mobile() {
+    border-width: 0 0 1px 0;
+  }
+}
+
+// Helper Classes
+.full-width-image-container {
+  width: 100vw;
+  height: 400px;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin: 5em -50vw;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.margin-top-0 {
+  margin-top: 0 !important;
+}
+
+@import "~bulma";
