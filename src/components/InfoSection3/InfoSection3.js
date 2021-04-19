@@ -11,6 +11,7 @@ import {
   Heading,
   Subtitle,
   ImgWrapper,
+  AccordionSection,
 } from './InfoSection3.elements';
 
 const InfoSection3 = ({
@@ -30,10 +31,10 @@ const InfoSection3 = ({
 }) => {
   return (
     <>
+    <AccordionSection>
       <InfoSec lightBg={lightBg} id='inf3'>
         <Container>
           <InfoRow imgStart={imgStart}>
-            <InfoColumn>
               <TextWrapper>
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
@@ -41,15 +42,10 @@ const InfoSection3 = ({
                 <Subtitle lightTextDesc={lightTextDesc}>{description1}</Subtitle>
                 <Subtitle lightTextDesc={lightTextDesc}>{description2}</Subtitle>
               </TextWrapper>
-            </InfoColumn>
-            <InfoColumn>
-              <ImgWrapper start={start}>
-                <Image src={img3} fluid alt={alt} />
-              </ImgWrapper>
-            </InfoColumn>
           </InfoRow>
         </Container>
       </InfoSec>
+      </AccordionSection>
     </>
   );
 };

@@ -3,6 +3,7 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { Button } from '../../global_styles';
 import logo from '../../img/logo/newLogo.png';
+
 import {
   Nav,
   NavbarContain,
@@ -122,7 +123,6 @@ const Navbar = () => {
                   >
                     <Button
                       style={{
-                        color: '#ffff',
                         fontFamily: " clone-rounded-latin, sans-serif",
                       }}
                     >

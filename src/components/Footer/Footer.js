@@ -60,10 +60,11 @@ const Footer = () => {
             </FooterLinksItems>
             <FooterLinksItems>
               <FooterLinkTitle>Contact Us </FooterLinkTitle>
+              <a href = 'https://linktr.ee/r.u.hacking' target="_blank">
               <FooterLink style={{ color: '#ffff' }} >
-                To keep up to date with all things R.U.Hacking? or have any
-                questions for us follow our social media pages
+              Get the latest updates from R.U.Hacking by following us on social media
               </FooterLink>
+              </a>
             </FooterLinksItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>

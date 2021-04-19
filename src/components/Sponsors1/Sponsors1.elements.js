@@ -26,5 +26,23 @@ export const SmallTopLine = styled.div`
   line-height: 46px;
   letter-spacing: 1.4px;
   padding-top: 90px;
+  padding-bottom: 20px;
+
+`;
+
+
+export const Title = styled.div`
+  color: ${({ lightTopLine }) => (lightTopLine ? '#ffff' : '#00000')};
+  font-size: 50px;
+  line-height: 46px;
+  letter-spacing: 1.4px;
+  padding-top: 90px;
   text-align: center;
+`;
+
+
+export const InfoRow = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 `;

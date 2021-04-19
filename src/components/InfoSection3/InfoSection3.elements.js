@@ -5,6 +5,8 @@ import styled from 'styled-components';
 export const InfoSec = styled.div`
   color: #fff;
   padding: 160px 0;
+  align-items: center;
+  text-align: center;
   background: ${({ lightBg }) => (lightBg ? '#ffff' : '#454545;')};
 `;
 
@@ -36,7 +38,8 @@ export const TextWrapper = styled.div`
   max-width: 540px;
   padding-top: 0;
   padding-bottom: 60px;
-
+  align-items: center;
+  text-align: center;
 
 
   @media screen and (max-width: 768px) {
@@ -86,3 +89,12 @@ export const img3 = styled.image`
 
 
 
+export const AccordionSection = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: #454545;
+  z-index: -2;
+`;

@@ -24,7 +24,7 @@ const Sponsors = ({ lightBg, imgStart, alt, start }) => {
     <>
  <link rel="stylesheet" href="https://use.typekit.net/vtd1gyc.css"></link>
 
-      <InfoSec lightBg={lightBg} id='sponsors'>
+      <InfoSec lightBg={lightBg}>
         <SponsorContainer>
           <SponsorLinksContainer>
             <SponsorLinksWrapper>

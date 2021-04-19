@@ -35,10 +35,6 @@ display: none;
 
 
 
-
-
-
-
 const Team = () => {
   return (
     <Container >

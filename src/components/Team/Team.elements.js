@@ -8,6 +8,7 @@ export const TopLine = styled.div`
   margin-bottom: 90px;
   margin-top: 90px;
   text-align: center;
+  
 `;
 
 export const WhiteSpace = styled.div`

@@ -1,6 +1,6 @@
 export const HomeObjectOne = {
   lightBg: false,
-  primary: true,
+  primary: false,
   imgStart: 'start',
   lightTopLine: true,
   lightTextDesc: true,
@@ -26,7 +26,7 @@ export const HomeObjectOne = {
 
 export const HomeObjectTwo = {
   lightBg: false,
-  primary: true,
+  primary: false,
   imgStart: '',
   lightTopLine: true,
   lightTextDesc: true,
@@ -38,19 +38,18 @@ export const HomeObjectTwo = {
     "There are lots of prizes to be won so come along and get involved - beginners welcome!",
   headline: 'R. U. Hacking? 2021',
   lightText: true,
-  img3: require('../../img/RUHLogoFinal02.png').default,
+  img3: require('../../img/RUHWebsiteBanner02-01.png').default,
   alt: 'Image',
   start: 'true',
 };
 
 
-
 export const HomeObjectFour = {
-  lightBg: true,
-  primary: true,
+  lightBg: false,
+  primary: false,
   imgStart: '',
   lightTopLine: false,
-  lightTextDesc: false,
+  lightTextDesc: true,
   buttonLabel: 'SPONSOR US',
   description:
     "Without the help of our amazing sponsors R.U.Hacking would not be possible.",
@@ -59,8 +58,8 @@ export const HomeObjectFour = {
     description2:
     "More sponsors will be posted as we get closer to the event, and if you're interested in becoming a sponsor for RUHacking? 2021 then please register your interest below.",
   headline: 'Interested in sponsoring us?',
-  lightText: false,
-  img: require('../../img/IMAGE2.png').default,
+  lightText: true,
+  img: require('../../img/RUHLogoFinal02.png').default,
   alt: 'Image',
   start: 'true',
 };

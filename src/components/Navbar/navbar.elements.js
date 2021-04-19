@@ -35,6 +35,7 @@ export const NavLogo = styled(Link)`
 
 export const ICON = styled.div`
   display: none;
+  
 
   @media screen and (max-width: 960px) {
     display: block;
@@ -69,6 +70,8 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
   height: 80px;
+
+
   border-bottom: 2px solid transparent;
   &:hover {
     border-bottom: 2px solid none;
@@ -110,6 +113,7 @@ export const NavItemBtn = styled.li`
     align-items: center;
     width: 100%;
     height: 180px;
+
   }
 `;
 export const NavBtnLink = styled(LinkS)`

@@ -8,7 +8,7 @@ import InfoSection3 from '../../components/InfoSection3/InfoSection3';
 import { InfoSection } from '../../components';
 import Sponsors from '../../components/Sponsors/Sponsors';
 import HomePage from '../../components/HomePage/HomePage';
-import Team1 from '../../components/Team1/Team1';
+import Sponsors1 from '../../components/Sponsors1/Sponsors1';
 
 import {
   HomeObjectOne,
@@ -25,11 +25,10 @@ const Home = () => {
       <FAQ />
       <InfoSection2 {...HomeObjectFour} />
       <FooterSubHeading>
-      <Sponsors {...HomeObjectFive} />
+      <Sponsors1 {...HomeObjectFive} />
       </FooterSubHeading>
       <InfoSection {...HomeObjectOne} />
       <Team />
-      <Team1 />
 
     </>
   );

@@ -9,6 +9,12 @@ const MargingTop = styled.p`
 
 `
 
+
+const SmallMarging = styled.p`
+  margin-bottom:50px;
+
+`
+
 const FooterHeading = styled.p`
   font-size: 70px;
   align-items: center;
@@ -52,6 +58,8 @@ function HomePage() {
   return (
     
     <InfoSec id='Homepage'>
+            <link rel="stylesheet" href="https://use.typekit.net/vtd1gyc.css"></link>;
+
    <AccordionSection> </AccordionSection>
       <d className="hero-container">
         <source src="../../img/vid1.mp4" type="video/mp4" autoPlay loop muted />
@@ -79,7 +87,10 @@ function HomePage() {
               Get Tickets
             </Button>
           </a>
-          <a href="https://discord.gg/VfWm3nwsQF" target="_blank">
+        <SmallMarging></SmallMarging>
+        </div>
+        <div className="hero-btns">
+        <a href="https://discord.gg/VfWm3nwsQF" target="_blank">
           <Button
             className="btns"
             buttonStyle="btn--outline"
@@ -91,6 +102,8 @@ function HomePage() {
           </a>
         <MargingTop></MargingTop>
         </div>
+
+
       </d>
     </InfoSec>
   );

@@ -8,7 +8,10 @@ import {
 } from 'react-icons/io';
 import { Container } from '../../global_styles';
 
+export const SmallGap = styled.div`
 
+  padding-top: 150px;
+`;
 
 const FooterSubHeading = styled.p`
   font-size: 40px;
@@ -109,8 +112,8 @@ export const Accordion = () => {
           );
         })}
       </IconContext.Provider>
-      
+      <SmallGap></SmallGap>
+
     </Container>
-    
   );
 };
