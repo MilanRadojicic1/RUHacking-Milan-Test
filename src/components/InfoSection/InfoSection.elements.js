@@ -52,7 +52,7 @@ export const TopLine = styled.div`
 
 export const Heading = styled.h1`
   margin-bottom: 24px;
-  font-size: 45px;
+  font-size: 50px;
   line-height: 1.1;
   color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#1c2237')};
 
@@ -82,3 +82,4 @@ export const img = styled.img`
   display: inline-block;
   max-height: 500px;
 `;
+

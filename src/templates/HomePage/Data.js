@@ -6,17 +6,16 @@ export const HomeObjectOne = {
   lightTextDesc: true,
   buttonLabel: 'BECOME A MEMBER',
   description:
-    'R. U. Hacking? is a student-run society at the University of Reading, whose focus is on coding and anything tech-related.',
-    description1:
-    'We host casual socials and the annual hackathon, providing the perfect opportunity for people from different backgrounds to connect, collaborate, and learn together.',
+    'R. U. Hacking? is a student-run society at the University of Reading, whose focus is on coding and anything tech-related. We host casual socials and the annual hackathon, providing the perfect opportunity for people from different backgrounds to connect, collaborate, and learn together.',
     description2:
     'R. U. Hacking? works hard to provide our members with strong links to local industry partners, who often aid in supporting or sponsoring our events.',
     description3:
-    'Anyone is welcome to join, whether you’re new to the field of tech or a master in the domain.',
+    'Anyone is welcome to join, whether you’re new to the field of tech or a master in the domain!',
     description4:
-    'Join the community via the link below and become an official member! (it should only take 5 minutes!) - This gives us a better idea of how to plan and tailor events to fit the needs of you guys.',
+    'Join the community via the link below and become an official member! This helps us to better plan and tailor events to fit the needs of you guys.',
     description5:
-    'Membership is completely FREE and you do not have to be a University of Reading student to become a member.',
+    'Membership is completely free and you do not have to be a University of Reading student to become a member.',
+    
   headline: 'Who are we?',
   lightText: true,
   img: require('../../img/BottomImage1.png').default,
@@ -31,11 +30,11 @@ export const HomeObjectTwo = {
   lightTopLine: true,
   lightTextDesc: true,
   description:
-    "R. U. Hacking? (Reading University Hacking) proudly presents our third annual online 24-hour student hackathon at the University of Reading, welcoming students from all over the UK and EU!",
+    "R. U. Hacking? (Reading University Hacking) proudly presents our 3rd annual 24-hour student hackathon, but this time it's completely virtual!",
     description1:
     "Whether you're completely new to programming or are a seasoned hackathon veteran, you are welcome to join us in this fun and collaborative invention marathon!",
     description2:
-    "There are lots of prizes to be won so come along and get involved - beginners welcome!",
+    "There are lots of prizes to be won so come along and get involved - whether you're completely new to programming or are a seasoned hackathon veteran, you're in for a fantastic weekend!",
   headline: 'R. U. Hacking? 2021',
   lightText: true,
   img3: require('../../img/RUHWebsiteBanner02-01.png').default,

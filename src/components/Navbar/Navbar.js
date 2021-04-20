@@ -68,14 +68,6 @@ const Navbar = () => {
                 </NavLinks>
               </NavItem>
 
-              <NavItem>
-                <NavLinks
-                  style={{ color: '#ffff',  fontfamily: " clone-rounded-latin, sans-serif"}}
-                  to='inf3'
-                >
-                  ABOUT
-                </NavLinks>
-              </NavItem>
 
               <NavItem>
                 <NavLinks
@@ -96,14 +88,17 @@ const Navbar = () => {
               </NavItem>
 
 
+
               <NavItem>
                 <NavLinks
-                  style={{ color: '#ffff', fontfamily: " clone-rounded-latin, sans-serif" }}
+                  style={{ color: '#ffff',  fontfamily: " clone-rounded-latin, sans-serif"}}
                   to='inf1'
                 >
-                  EXTRA INFO
+                  ABOUT US
                 </NavLinks>
               </NavItem>
+
+
 
               <NavItem>
                 <NavLinks

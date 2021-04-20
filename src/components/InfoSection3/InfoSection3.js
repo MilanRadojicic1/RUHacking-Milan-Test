@@ -1,16 +1,13 @@
 import React from 'react';
 import { Container } from '../../global_styles';
-import Image from 'react-bootstrap/Image'
 
 import {
   InfoSec,
   InfoRow,
-  InfoColumn,
   TextWrapper,
   TopLine,
   Heading,
   Subtitle,
-  ImgWrapper,
   AccordionSection,
 } from './InfoSection3.elements';
 
@@ -25,9 +22,6 @@ const InfoSection3 = ({
   headline,
   lightText,
   topLine,
-  img3,
-  alt,
-  start,
 }) => {
   return (
     <>

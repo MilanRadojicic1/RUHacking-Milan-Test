@@ -16,7 +16,7 @@ import ThamesValleyAiHub from '../../img/ThamesValleyAiHub.png';
 import Bayer from '../../img/Bayer_LifeHub_UK_Logo.jpg';
 import { TopLine, GapForSponsors } from './Sponsors.elements';
 import Institute_of_Technology from '../../img/Institute_of_Technology_-_Gold_Sponsor.png';
-import Image from 'react-bootstrap/Image'
+import Image from 'react-bootstrap/Image';
 
 
 const Sponsors = ({ lightBg, imgStart, alt, start }) => {

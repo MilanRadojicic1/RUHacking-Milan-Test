@@ -22,7 +22,7 @@ export const WhiteSpace = styled.div`
 
 export const SmallTopLine = styled.div`
   color: ${({ lightTopLine }) => (lightTopLine ? '#ffff' : '#00000')};
-  font-size: 50px;
+  font-size: 40px;
   line-height: 46px;
   letter-spacing: 1.4px;
   padding-top: 90px;

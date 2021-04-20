@@ -127,3 +127,12 @@ export const NavBtnLink = styled(LinkS)`
   border: none;
   outline: none;
 `;
+
+
+
+
+export const SmallMarging = styled.p`
+  margin-bottom:50px;
+  background:#454545;
+
+`

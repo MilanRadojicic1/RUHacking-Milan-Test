@@ -29,3 +29,9 @@ export const SmallTopLine = styled.div`
   padding-top: 90px;
   text-align: center;
 `;
+
+
+export const SmallGap = styled.div`
+
+  padding-top: 60px;
+`;

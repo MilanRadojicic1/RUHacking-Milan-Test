@@ -8,7 +8,7 @@ video {
 
 .hero-container {
   background: url('../../img/BACKGROUNDIMAGE.jpg') center center/cover no-repeat;
-  height: 100vh;
+  height: 105vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -16,5 +16,5 @@ video {
   align-items: center;
   box-shadow: insert 0 0 0 1300px rgba(0, 0, 0, 0.2);
   object-fit: contain;
-  margin-top: 100px;
+  
 }
